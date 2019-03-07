@@ -416,6 +416,10 @@ Route::get('/admin', function(){
 		
 		return view('adminwarga',['users'=>$users,'barangdesas'=>$barangdesas,'jmlbarang'=>$jmlbarang,'data_penduduks' => $data_penduduks,'kode_area_dusuns' => $kode_area_dusuns,'template' => $template]);
 
+	}if(Auth::user()->roles == "webmaster" && Auth::user()->status == "aktif"){
+		$template= \App\template_parameter::all();
+		
+		return view('webmaster',['template' => $template]);
 	}elseif(Auth::user()->roles == "member" && Auth::user()->status == "tidak aktif"){
 
 		return view('auth/login')->with('pesan', 'Akun anda belum aktif');
@@ -423,15 +427,6 @@ Route::get('/admin', function(){
 })->middleware('auth');
 
 
-
-
-Route::get('/webmaster', function(){
-	if(Auth::user()->roles == "webmaster" && Auth::user()->status == "aktif"){
-		$template= \App\template_parameter::all();
-		
-		return view('webmaster',['template' => $template]);
-	}
-})->middleware('auth');
 
 
 
