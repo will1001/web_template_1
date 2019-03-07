@@ -1,0 +1,267 @@
+body{
+    background-image: none;
+}
+
+nav a{
+    color: #000;
+}
+
+nav a:hover{
+    color: #fff;
+}
+
+#sidebar a:hover{
+background-color: #fff;
+color: #000;
+}
+
+
+a.nav-link {
+    display: block;
+    font-weight: bold;
+    color: black;
+    width: auto;
+    margin: 5px 0px;
+    line-height: 16px;
+}
+
+
+
+
+#logotext{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+#logotext2{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#spacetextlogo{
+    display: inline-grid;
+}
+
+#sidebar{
+    height: 100%;
+    display: block;
+}
+
+.sidebar_ul{
+    list-style: none;
+}
+
+
+
+    .tomboladd{
+        float: right;
+        border-radius: 30px;
+        padding: 15px 15px;
+        margin: 10px 10px;
+        color: #000;
+    }
+
+    .tomboladd:hover{
+        transform: scale(1.1);
+        font-weight: bold;
+        color: #000;
+        text-decoration: none;
+        transition: 1s;
+    }
+
+
+    .tombolexportdatapenduduk{
+        float: right;
+        border: 1px gray solid;
+        background-color: transparent;
+        border-radius: 25px;
+        padding: 5px 5px;
+        font-size: 12px;
+        margin-top: 21px;
+    }
+
+    .tombolexportdatapenduduk:hover{
+        box-shadow: 5px 5px 5px #000;
+        transition: 1s;
+        border-radius: 25px;
+        padding: 5px 5px;
+    }
+
+    .tipefileselect{
+        float: right;        
+        margin: 27px 7px;
+    }
+
+    .tomboledit{
+        float: right;
+        border-radius: 30px;
+        padding: 20px 24px;
+        margin: 3px 0px;
+        color: #000;
+        position: absolute;
+        
+    }
+
+    #editform{
+      border: 1px solid #808080;
+      width: 17%;
+      margin: 20px 0px;
+      height: 29px;
+      padding: 5px 1px;
+    }
+
+
+    .tombolhapus{
+        float: right;
+        border-radius: 30px;
+        padding: 10px 15px;
+        margin: 3px 0px;
+        color: #000;
+        position: absolute;
+        left: 19%;
+        top: 76%;
+    }
+
+    #hapusform{
+      border: 1px solid #808080;
+      width: 17%;
+      margin: 20px 0px;
+      height: 29px;
+      padding: 5px 1px;
+    }
+
+    
+
+    #barang-desa .card{
+        text-align: center;
+    }
+
+
+    #profildesaadmin {
+        height: auto;
+    }
+
+    #profildesaadmin img{
+        width: 150px;
+        height: 150px;
+        margin: 15px 0px;
+    }
+
+    #profildesaadmin h1{
+        text-align: center;
+        font-size: 15px;
+        
+        
+    }
+
+
+    #profildesaadmin input.button.white{
+        margin: 10px 0px;
+    }
+
+
+    #profildesaadmin textarea{
+        width: 100%;
+    }
+
+
+    section{
+        min-height: 100%;
+        height: 1000px;  
+    }
+
+    #biodata{
+        padding-top: 0px;
+    }
+
+
+    #pilihankadus{
+        border: 1px solid #4272d7;
+        background-color: rgba(250,250,250,0.1);
+        font-size: 17px;
+        color: #4272d7;
+        font-family: Lato-Bold;
+        float: left;
+    }
+
+
+    #NIK{
+        border: 1px solid #808080;
+        /*width: 20%;*/
+        height: 30px;
+        padding: 5px 5px;
+    }
+
+   
+
+    .search {
+    float: left;
+    border: 1px solid #000;
+    position: relative;
+    top: 4px;
+    width: 164px;
+    } 
+
+    .searchkadus {
+    display: inline-block;
+    }
+
+    .searchkadus input{
+    border: 1px solid #000 !important;
+    }
+
+    #tombol_search {
+    float: right;
+    margin: 5px 5px;
+    border-radius: 19px;
+    padding: 0px 9px;
+    }
+
+    #tombol_searchkadus {
+    display: inline-block;
+    margin: 0px 5px;
+    border-radius: 19px;
+    padding: 0px 10px;
+    }
+
+    input#search {
+    padding: 0px 4px;
+    width: 161px;
+    }
+
+
+    input#NIKsurat {
+        display: inline-block;
+        border: 1px solid #000!important;
+    }
+
+    a#tombolbuatsurat {
+    border-radius: 23px;
+    padding: 5px 10px;
+    color: #000;
+   
+   }
+
+   #filter{
+    float: left;
+    margin: 4px 5px;
+    height: 24px;
+   }
+
+   .previous,.next{
+    margin: 0px 25px;
+   }
+
+   #sidebar a{
+    font-size: 12px;
+    line-height: 21px;
+   }
+
+    
+
+    
+.active{
+background-color: #fff;
+}

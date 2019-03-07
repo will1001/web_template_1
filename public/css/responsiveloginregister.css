@@ -1,0 +1,550 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .registerform .card-body {
+    left: 43%;
+    }
+
+    .registerform .card-header {
+    left: 29%;
+    }
+
+    .registerform .btn {
+    left: 107%;
+    }
+
+    .registerform label {
+    width: 159px;
+    }
+
+    .registerform form {
+    left: 6%;
+    }
+
+    .screen-box {
+    left: 0vw;
+    width: 37vw;
+    }
+
+
+
+    .mainmenu-area .logo h5 {
+    font-size: 12px;
+    margin-top: -2px;
+    }
+
+    .loginregform .card-body{
+    left: 25vw;
+    bottom: 22vh;
+    width: 48vw;
+    }
+
+
+    .loginregform form {
+    left: 12vw;
+    }
+
+    .loginregform .btn {
+    left: 4vw;
+    }
+
+    a.btn.btn-link {
+    left: 3vw;
+    }
+
+
+    .mainmenu-area .logo {
+    
+    width: 29vw;
+    }
+
+    #logo {
+    height: 7vh;
+    }
+
+    #visimisi img {
+    margin-left: 5vw;
+    }
+
+    .navbar-brand p {
+    right: -5vw;
+    bottom: 9vh;
+   }
+
+   .navbar-brand span {
+    left: 6vw;
+    bottom: 10vh;
+   }
+
+
+
+
+
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .mainmenu-area #primary-menu > ul > li > a {
+        padding: 30px 12px;
+    }
+    .header-area {
+        padding-top: 80px;
+    }
+    .price-table,
+    .box {
+        padding: 30px 15px;
+    }
+    .price-table.active {
+        padding: 50px 15px;
+    }
+    .single-team {
+        margin-bottom: 30px
+    }
+    .side-icon-boxes {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+
+    .registerform .card-header {
+    left: 0%;
+    }   
+
+    .registerform .card-body {
+    left: 13%;
+    }
+
+    .registerform .btn {
+    left: 99%;
+    }
+
+    .registerform label {
+    width: 159px;
+    }
+
+    .registerform form {
+    left: 9%;
+    }
+
+    .screen-box {
+    width: 38vw;
+    left: -1vw;
+    }
+
+
+    .Selengkapnyabutton2 {
+    right: 38vw;
+    }
+
+    .loginregform .card-body{
+    left: 21vw;
+    bottom: 12vh;
+    width: 54vw;
+    }
+    
+
+    .loginregform form {
+    left: 11vh;
+    }
+
+
+    .form-check {
+    left: -5vw;
+    position: relative;
+    }
+
+    .loginregform .btn {
+    left: 7vw;
+    }
+
+    #logo {
+    height: 6vh;
+    }
+
+    #visimisi img {
+    margin-left: 0vw;
+    }
+
+    #logo {
+    bottom: 2vh;
+    }
+
+    .navbar-brand span {
+    left: 8vw;
+    bottom: 9vh;
+    }
+
+
+    .navbar-brand p {
+    font-size: 13px;
+    right: -6vw;
+    bottom: 8vh;
+    }
+
+    a.btn.btn-link {
+    left: 5vw;
+    }
+
+   
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 13px;
+    }
+    .header-area {
+        padding-top: 120px;
+        padding-bottom: 100px;
+        height: auto;
+    }
+    .page-title h2,
+    .header-text h2 {
+        font-size: 20px;
+    }
+    .mainmenu-area .navbar-toggle {
+        margin-top: 20px;
+    }
+    .mainmenu-area .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+    }
+    .mainmenu-area #primary-menu {
+        background-color: #138FC2;
+    }
+    .mainmenu-area #primary-menu ul {
+        overflow-y: auto;
+        max-height: 70vh;
+        margin: 0;
+    }
+    .mainmenu-area #primary-menu > ul > li > a {
+        padding: 15px;
+        overflow: hidden;
+    }
+    .box {
+        padding: 30px 15px;
+    }
+    .box .box-icon {
+        height: auto;
+    }
+    .single-blog,
+    .single-team,
+    .price-table.active {
+        margin-top: 30px;
+    }
+    .form-double input {
+        width: 100%;
+    }
+    .footer-top {
+        margin-bottom: 50px;
+    }
+    .x-left {
+        text-align: left;
+    }
+    .mainmenu-area .logo {
+        margin-left: 2vw;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .v-center{
+        display: inherit;
+    }
+
+    .loginregform form {
+    left: 11vw;
+    }
+
+    .input-group-prepend span {
+    width: 25px;
+    height: 32px;
+    }
+
+    .loginregform .card-body {
+    width: 72vw;
+    left: 12vw;
+    bottom: 30vh;
+    }
+
+
+    .registerform .card-header {
+    left: 2%;
+    }
+
+    .registerform .card-body {
+    left: 8%;
+    }
+
+    .registerform .btn {
+    left: 117%;
+    }
+
+    .screen-box {
+    margin-left: 2vw;
+    width: 59vw;
+
+    }
+
+
+    
+
+
+
+
+    #tentang-desa img {
+    margin-right: 25px;
+    margin-bottom: 0px;
+    width: 225px;
+    height: 198px;
+    }
+
+    #tentang-desa p {
+    font-size: 11px;
+    }
+
+    #tentang-desa h1 {
+    font-size: 24px;
+    }
+
+
+    #tentang-desa #bgprofil{
+    
+    left: 3%;
+    }
+
+    .Selengkapnyabutton2 {
+    right: 32vw;
+    }
+
+    .Selengkapnyabutton {
+    right: 33vw;
+    }
+
+    
+
+    #logo {
+    height: 14vh;
+    bottom: 17px;
+    }
+
+    .mainmenu-area .logo h5 {
+    bottom: 1vh;
+    width: 77vw;
+    }
+
+    .mainmenu-area .logo h2 {
+    top: -1vh;
+    width: 59vw;
+    }
+
+    #lembaga .img-circle {
+    left: 21vw;
+    position: relative;
+    margin: 5vh 0vw;
+    }
+
+    #visimisi img {
+    margin-left: 0vw;
+    }
+
+     .search{
+        margin: 5px 0px;
+        border: 1px solid #138FC2;
+        height: 23px;
+        padding: 2px 0px;
+        width: 272px;
+        display: inline-block;
+        text-align: left;
+    }
+
+    #tombol_search{
+        border-radius: 5px;
+        padding: 0px 17px;
+        margin: 5px 0px;
+        background-color: #138FC2;
+        color: #ffffff;
+        font-size: 13px;        
+    }
+
+    .loginregform .btn {
+    left: -2vw;
+    }
+
+    a.btn.btn-link {
+    left: 13vw;
+    top: -9vh;
+    }
+
+    .navbar-brand p {
+    right: -3vw;
+    bottom: 18vh;
+    }
+
+   .navbar-brand span {
+    left: 7vw;
+    bottom: 22vh;
+    }
+
+}
+
+    
+    @media only screen and (min-width: 320px) and (max-width: 479px) {
+    
+    html{
+        background-image: url("/images/bg.jpg");
+        font-size: 13px;
+        width: 100%;
+    }
+
+    body {
+        background-color: transparent;
+        background-image: none;
+        width: 97%;
+        
+    }
+
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+        margin: -29px 0px;
+    }
+
+    #logotext{
+        font-size: 19px;
+        line-height: 41px
+    }
+
+    #logotext2{
+        font-size: 9px;
+        line-height: 0px
+    }
+
+    #spacetextlogo {
+        margin: -6px 0px;
+    }
+
+    nav img{
+        width: 39px;
+        height: 45px;
+    }
+
+    button.navbar-toggler {
+        position: relative;
+        top: 14px;
+        left: 19px;
+    }
+
+    section{
+        width: 100%;
+    }
+
+    
+    
+    footer{
+        font-size: 13px;
+        white-space: nowrap;
+        position: absolute;
+        width: 100%;
+        margin-top: 116px;
+    }
+
+    .infofooter p{
+            margin: 0px -61px;
+    }
+
+    .Copyrightfooter p{
+            margin: 0px -21px;
+    }
+
+    .tanggalfooter{
+            margin: 0px -9px;
+    }
+
+    
+
+
+
+    #date,#txt{
+        display: inline-block;
+    }
+
+    .dropdown-menu.show {
+        margin: 19px 0px;
+        margin-bottom: 37px;
+    }
+
+    
+   .navbar-light .navbar-brand {
+    margin-left: 1px;
+    }
+
+    
+    .loginregform .card {
+    width: 299px;
+    margin: 67px -76px;
+    }
+
+    .registerform .card {
+    margin: 14px 0px;
+    }
+
+    .loginregform .card-body.text-center {
+    margin: 0px 9px;
+    }
+
+    .loginregform form {
+    width: 100%;
+    }
+
+    .loginregform .form-group.row.mb-0 {
+    position: relative;
+    right: 97px;
+    width: 375px;
+    }
+
+    .input-group-prepend {
+    margin-right: -45px;
+    }
+    .loginregform span.input-group-text.col-xs-6.col-6.col-sm-6.col-form-label.text-md-right {
+    width: 73px;
+    }
+
+    .loginregform .form-control{
+        width: 213px;
+    }
+
+    .registerform .form-control{
+        width: 213px;
+        margin: 0px -35px;
+    }
+
+    a.btn.btn-link {
+    font-size: 10px;
+   }
+
+   .loginregform input {
+    width: 215px;
+   }
+
+   .registerform input {
+    width: 171px;
+   }
+
+   li.nav-item.dropdown {
+    margin: -43px 16px;
+    }
+
+
+
+}

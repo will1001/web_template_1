@@ -1,0 +1,340 @@
+html {
+   height: 1023px;   
+}
+
+body{
+
+   /* Full height */
+   height: 1023px;
+   width: 100%; 
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   font-family: Lato;
+   font-size: 0.8rem;
+}
+
+#kotak1 h2{
+      font-size: 27px;
+    font-weight: bold;
+}
+
+#kotak1 a{
+  color:#000000!important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: #000000;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+	color: #000000;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+	color: #ffffff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color:#ffffff;
+}
+
+li.nav-item {
+    margin: 0px 15px;
+}
+
+a.bidangpemerintahan_link.active{
+ color:#ffffff; 
+}
+
+p.text-right.footsign{
+        padding: 0px 47px;
+    }
+
+
+#logotext{
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 46px;
+    font-size: 33px;
+}
+
+#logotext2{
+	text-transform: uppercase;
+    font-size: 16px;
+    line-height: 5px;
+    font-weight: bold;
+}
+
+#spacetextlogo{
+	display: inline-grid;
+}
+
+#boxtext{
+	font-weight: bold;
+	line-height: 46px;
+    font-size: 28px;
+    color: black;
+}
+
+.bg-light{
+	background-color: transparent!important;
+}
+
+a.nav-link {
+	display: inline-grid;
+    font-weight: bold;
+    color: black;
+    width: 105px;
+    margin: 0px 0px;
+    line-height: 16px;
+}
+
+.navbar-brand {
+    padding-top: 2.5rem;
+    margin-left: -2.3rem;
+}
+
+dl, ol, ul {
+    margin-top: 1.5rem;
+}
+
+a.dropdown-toggle{
+	font-weight: bold;
+    color: black!important;
+    top: 19px;
+    position: relative;
+    left: 31px;
+}
+
+  
+
+.tentang_desa{
+	background-color: rgba(100, 203, 135, 0.5);
+}
+.berita_terbaru{
+	background-color: rgba(127, 162, 221, 0.5);
+}
+.pengumuman{
+	background-color: rgba(221, 217, 127, 0.5);
+}
+
+
+#kotak1 .inner{
+	height: 317px;
+	margin: 0px 0px;
+}
+
+#kotak2 .outter img{
+	height: 230px;
+	width: 319px;
+    margin: 18px 0px;
+    
+}
+
+#kotak2 .outter2 img{
+	height: 230px;
+    width: 230px;
+    margin: 18px -49px;
+}
+
+#kotak2 .inner1{
+  position: absolute;
+  height: 230px;
+  width: 319px;
+  bottom: 20px;
+  right: 48px;
+  padding: 0px 10px;
+  color: #000000;
+  white-space: nowrap;
+  text-shadow: -1px 0 rgba(255,255,255,.7), 0 1px rgba(255,255,255,.7), 1px 0 black, 0 -1px rgba(255,255,255,.7);
+}
+
+#kotak2 .inner2{
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  bottom: 20px;
+  right: -7px;
+  padding: 0px 10px;
+  color: #000000;
+  white-space: nowrap;
+  text-shadow: -1px 0 rgba(255,255,255,.7), 0 1px rgba(255,255,255,.7), 1px 0 black, 0 -1px rgba(255,255,255,.7);
+}
+
+#kotak1{
+	padding-top: 40px;
+}
+
+
+#kotak1 p{
+	margin: 0px 0px;
+  font-size: 15px;
+}
+
+#kotak3{
+	background-color: rgba(196, 196, 196, 0.5);
+	height: 90px;
+	margin: 15px 0px;
+}
+
+
+#kotak3 i{
+	font-size: 51px;
+	margin: 7px 0px;
+}
+
+
+.h4, h4 {
+    font-size: 0.85rem;
+    color:  black;
+}
+
+.fa, .fab, .fal, .far, .fas {
+    line-height: 1;
+    color: black;
+}
+
+p {
+    margin-bottom: 0rem;
+}
+
+.container-fluid {
+    padding-right: 110px;
+    padding-left: 110px;
+}
+
+
+footer{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.kotak1bidangpemerintahan,.kotak2bidangpemerintahan,.kotakpanduanpenduduk,.kotakagenda,.kotak1halamanbisnis,.kotak2Ahalamanbisnis,.kotak2Bhalamanbisnis,.kotak3Ahalamanbisnis,.kotak3Bhalamanbisnis,.kotak1Pengunjung,.kotak2APengunjung,.kotak2BPengunjung,.kotak3APengunjung,.kotak3BPengunjung,.kotak4Pengunjung,.kotak5Pengunjung,.kotak6Pengunjung{
+	background-color: rgba(196, 196, 196, 0.5);
+}
+
+#app{
+	height: 948px;
+}
+
+.kotak1bidangpemerintahan li a{
+    list-style-type: none;
+    font-size: 23px;
+    line-height: 62px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.kotak2bidangpemerintahan{
+  margin: 25px 0px;
+}
+.kotak1Pengunjung,.kotak2APengunjung,.kotak2BPengunjung,.kotak3APengunjung,.kotak3BPengunjung,.kotak4Pengunjung,.kotak5Pengunjung,.kotak6Pengunjung{
+  width: 315px
+}
+
+.kotak3Ahalamanbisnis li a,.kotak3Bhalamanbisnis li a,.kotak2Bhalamanbisnis li a{
+  font-size: 19px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.pasaronlineslideshow .carousel-control-next {
+    margin: 0px -135px;
+    
+
+}
+
+.pasaronlineslideshow .carousel-control-prev{
+  margin: 0px -135px;
+  
+}
+
+#kotak1 .carousel-control-next {
+    margin-top: 52%;
+    
+
+}
+
+#kotak1 .carousel-control-prev{
+  margin-top: 52%;
+  
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.pasaronlineslideshow img.card-img-top {
+  margin: 0px 0px;
+  width: 232px;
+  height: 232px;
+}
+
+.pasaronlineslideshow{
+  margin: 10px 0px;
+}
+
+.pasaronlineslideshow .card{
+      color: #000;
+    }
+
+.kotak1halamanbisnis{
+  padding: 11px 26px; 
+}
+
+#kotak1 a{
+  text-decoration: none;
+}
+
+
+#kotak1 h2{
+  color: #000;
+}
+
+.kotak2Ahalamanbisnis{
+  font-size: 19px;
+}
+
+
+#kotak1 .inner{
+  height: 199px;
+}
+
+
+.bidangpanel{
+  margin: 0px 10px;
+}
+
+.kotakpanduanpenduduk a{
+color: #000;
+font-size: 23px;
+text-decoration: none;
+}
+
+.kotakpanduanpenduduk a:hover{
+color: #fff;
+transition:1s;
+
+}
+.kotak2APengunjung,.kotak2BPengunjung,.kotak3APengunjung,.kotak3BPengunjung,.kotak5Pengunjung,.kotak6Pengunjung li{
+  font-size: 17px;
+}
+
+.selayangpandangbody{
+  background-color: rgba(0,0,0,.5);
+  font-size: 21px;
+  color: #fff;
+}
+
+.selayangpandangbody p{
+ white-space: pre-line;
+ white-space: pre-wrap;
+}

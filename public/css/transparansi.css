@@ -1,0 +1,33 @@
+
+body{
+	background-image: none;
+}
+
+.bg-light{
+    background-color: #138FC2!important;
+}
+
+.mainmenu-area {	
+	background-color: #138fc2;
+}
+
+
+#transparansi{
+	height: auto;
+	background-color: #ffffff;
+}
+
+#transparansi img{
+	width: 100%;
+}
+
+.tablestatistik{
+	overflow-x:hidden; 
+	max-height: 100%;
+	position: relative;  
+	font-size: 21px; 
+	width: 100%;
+	margin-bottom : 139px;
+}
+
+

@@ -1,0 +1,67 @@
+html {
+   height: 100%;
+   
+}
+
+body{
+   background-image: url("/images/bg.jpg");
+
+   /* Full height */
+   height: 100%;
+   width: 100%; 
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   font-family: Lato;
+   font-size: 0.8rem;
+}
+
+
+.loginregform{
+    height: 371px;
+}
+
+.registerform{
+    height: 402px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.loginregform span.input-group-text.col-xs-6.col-6.col-sm-6.col-form-label.text-md-right{
+    width: 83px;
+    background-color: #0069D9;
+}
+
+
+.loginregform .card {
+    width: 502px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.loginregform .card-body.text-center {
+    margin: 0px 82px;
+}
+
+.loginregform form {
+    width: 565px;
+}
+
+
+
+.loginregform .form-group.row.mb-0 {
+    position: relative;
+    right: 173px;
+}
+
+.registerform .form-group.row {
+    height: 25px;
+}
+

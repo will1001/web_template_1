@@ -1,0 +1,50 @@
+body{
+    background-image: none;
+}
+
+.bg-light{
+    background-color: blue!important;
+        width: 103%;
+}
+
+a.dropdown-toggle{
+    top: 0px;
+    left: 0px;
+}
+
+a.nav-link {
+    display: block;
+    width: auto;
+    line-height: 16px;
+}
+
+
+a.navbar-brand {
+    padding: 0px 0px;
+}
+
+#logotext {
+    line-height: 21px;
+    font-size: 19px;
+    padding-top: 9px;
+}
+
+#logotext2 {
+    line-height: 6px;
+    font-size: 9px;
+}
+
+
+.container-fluid {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.sidebar{
+    background-color: blue;
+    height: 1000px;
+}
+
+.backgroundsidebar{
+    height: 100%;
+}
