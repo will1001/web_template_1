@@ -60,7 +60,7 @@ class TemplateController extends Controller
          ]);    
 
             
-            return redirect('webmaster')->with('message', 'data berhasil di simpan');
+            return redirect('admin')->with('message', 'data berhasil di simpan');
 
             }else{
               
@@ -74,12 +74,12 @@ class TemplateController extends Controller
          ]);   
 
             
-            return redirect('webmaster')->with('message', 'data berhasil di simpan');
+            return redirect('admin')->with('message', 'data berhasil di simpan');
             }
 
         }else{
         
-            return redirect('webmaster');
+            return redirect('admin');
         }
     }
 }

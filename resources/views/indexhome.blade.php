@@ -68,9 +68,9 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           @if (Route::has('register'))
-            <a class="dropdown-item" href="{{ url('register') }}">Daftar</a>
+            <a class="dropdown-item" href="{{ Route('register') }}">Daftar</a>
           @endif
-          <a class="dropdown-item" href="{{ url('login') }}">Login</a>
+          <a class="dropdown-item" href="{{ Route('login') }}">Login</a>
         </div>
       </li>
     </ul>
